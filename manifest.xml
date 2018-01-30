@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="1.6.0" method="upgrade">
+ 
+	<name>COM_NICEAJAXPOLL</name>
+	<!-- The following elements are optional and free of formatting conttraints -->
+	<creationDate>2011</creationDate>
+	<author>Dmitriy Kupriynov</author>
+	<authorEmail>ageent.ua@gmail.com</authorEmail>
+	<authorUrl>http://www.ageent.ru</authorUrl>
+	<copyright>open</copyright>
+	<!--  The version string is recorded in the components table -->
+	<version>1.0</version>
+	<!-- The description is optional and defaults to the name -->
+	<description>COM_NICEAJAXPOLL_DESCRIPTION</description>
+ 
+
+	<!-- Site Main File Copy Section -->
+	<!-- Note the folder attribute: This attribute describes the folder
+		to copy FROM in the package to install therefore files copied
+		in this section are copied from /site/ in the package -->
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>niceajaxpoll.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+	</files>
+    
+    <media destination="com_niceajaxpoll" folder="media">
+        <filename>index.html</filename>
+        <folder>images</folder>
+    </media>
+        
+	<administration>
+		<menu img="../media/com_niceajaxpoll/images/tux-16x16.png">COM_NICEAJAXPOLL_MENU</menu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder
+			to copy FROM in the package to install therefore files copied
+			in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+			<!-- Admin Main File Copy Section -->
+			<filename>index.html</filename>
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+			<filename>niceajaxpoll.php</filename>
+			<filename>controller.php</filename>
+			<!-- tables files section -->
+			<folder>tables</folder>
+			<!-- models files section -->
+			<folder>models</folder>
+			<!-- views files section -->
+			<folder>views</folder>
+			<!-- controllers files section -->
+			<folder>controllers</folder>
+			<!-- helpers files section -->
+			<folder>helpers</folder>
+		</files>   
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_niceajaxpoll.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_niceajaxpoll.sys.ini</language>
+        </languages>
+        </administration> 
+        <installfile>install.php</installfile>
+        <uninstallfile>uninstall.php</uninstallfile>
+</extension>

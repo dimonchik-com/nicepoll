@@ -1,0 +1,18 @@
+.ageent_main_only .i_find_you,.ageent_main_only1 .i_find_you,.ageent_main_only2 .i_find_you,.ageent_main_only3 .i_find_you,.ageent_main_only4 .i_find_you,.ageent_main_only5 .i_find_you{height: 15px; display: inline-block;}
+.ageent_main_only .i_find_you,.ageent_main_only1 .i_find_you,.ageent_main_only2 .i_find_you,.ageent_main_only3 .i_find_you,.ageent_main_only4 .i_find_you,.ageent_main_only5 .goad_lol{ text-align: left; }
+.ageent_main_only .i_find_you,.ageent_main_only1 .i_find_you,.ageent_main_only2 .i_find_you,.ageent_main_only3 .i_find_you,.ageent_main_only4 .i_find_you,.ageent_main_only5 input{ text-align: center;}
+.poll-results p { float:none; text-align: center; position: relative; top: 10px;}
+.poll-results {display: inline-block;}
+.poll-container{font-size: 12px; display: block; position: relative;}
+.one_quesion{margin: 0px 0 5px 0; font-size: 12px; font-weight: normal; padding: 5px 0 0 0; }
+.poll-container .two_input{ margin: 2px 0 2px 0;}
+.poll-container label {position: relative; left: 2px;}
+.poll-container .button{  background:url("./grad1.gif") repeat-x scroll center top #333333; border:1px solid #333333; color:#CCCCCC; font-size:10px; margin:0 5px 0px 0px; padding:2px 3px; text-transform:uppercase; width: 70px;}
+.poll-container .one_point{width:70px;}
+.poll-container .temp_two{ font-weight: bolder;}
+.poll-container .total a{display:inline-block; padding: 0px; background: none; font-size: 12px;}
+.poll-container .total a:hover{color:#000}
+.poll-container .total a:hover{background: none; text-decoration: underline;}
+.poll-container .radio {width: 19px; height: 20px; padding: 0 5px 0 0; background: url(./radio.gif) no-repeat; display: block; clear: left; float: left;}
+.zobel{ margin: 10px 0 0 0;}
+.already_voted,.already_error{ text-align: center; display:block; color: #ed1c24; margin: 5px 0 5px 0; padding: 0px; position: absolute;  left: 0px;}
